@@ -14,10 +14,10 @@ using UnityEngine.UI;
 
 namespace FelixBangTools
 {
-    public class AdjustTools : MonoBehaviour
+    public class AdjustTools
     {
         /// <summary>
-        /// 调节图片大小
+        /// 调节图片大小（For NGUI）
         /// </summary>
         /// <param name="standard">标准长宽</param>
         /// <param name="originTex"></param>
@@ -54,7 +54,7 @@ namespace FelixBangTools
         }
 
         /// <summary>
-        /// 调节文本内容，多余的内容“...”表示
+        /// 调节文本内容，多余的内容“...”表示（For NGUI）
         /// </summary>
         /// <param name="label"></param>
         /// <param name="strContent"></param>
